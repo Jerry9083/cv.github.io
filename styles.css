@@ -1,0 +1,71 @@
+body{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.darkmode{
+    background-color: black;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+
+.container{
+    background-color: cornflowerblue;
+    height: 100px;
+}
+
+.about {
+    background-color: green;
+    color: red;
+}
+
+.profile_image{
+    display: flex;
+    justify-content: center;
+}
+
+.about_image{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact_image{
+    float: left;
+    height: 200px;
+   border-radius: 10px;
+   margin-right: 10px;
+}
+
+footer{
+    background-color: thistle;
+    height: 100px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+figcaption{
+    margin-left: 10px;
+    text-align: center;
+}
+.line{
+    width: 25px;
+    height: 3px;
+    background-color: lightpink;
+    margin: 5px 0;
+}
